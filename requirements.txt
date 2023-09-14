@@ -3,5 +3,7 @@ numpy
 seaborn
 sklearn
 matplotlib
+requests
+configparser
 
 
