@@ -5,7 +5,7 @@ import pandas as pd
 import configparser
 
 
-logging.basicConfig(filename='api_requests.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename=os.path.join(os.getcwd(),'logs','api_requests.log'), level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class APIRequest:
     def __init__(self, API):
